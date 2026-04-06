@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Primary Meta -->
+  <title>Automist Labs — n8n & GoHighLevel Automation Expert</title>
+  <meta name="description" content="Automist Labs specialises in n8n workflow automation, GoHighLevel CRM & funnels, API integrations, and growth systems that save time and scale revenue." />
+  <meta name="keywords" content="n8n, GoHighLevel, GHL, automation, CRM, funnels, integrations, webhooks, workflow automation, Automist Labs" />
+  <meta name="author" content="Automist Labs" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://automistlabs.github.io/testing-website/" />
+  <meta property="og:title" content="Automist Labs — n8n & GoHighLevel Automation Expert" />
+  <meta property="og:description" content="We build powerful automation systems with n8n and GoHighLevel that save hours, nurture leads, and accelerate growth." />
+  <meta property="og:image" content="https://automistlabs.github.io/testing-website/assets/img/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Automist Labs — n8n & GHL Automation Expert" />
+  <meta name="twitter:description" content="Workflow automation, CRM systems, and integrations that grow your business on autopilot." />
+  <meta name="twitter:image" content="https://automistlabs.github.io/testing-website/assets/img/og-image.png" />
+
+  <!-- Favicon (inline SVG data URI) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2300c2ff'/%3E%3Cstop offset='1' stop-color='%237b5ea7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ctext x='7' y='23' font-size='18' font-weight='900' fill='white' font-family='system-ui'%3EA%3C/text%3E%3C/svg%3E" />
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://automistlabs.github.io/testing-website/" />
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <header>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <div class="nav__inner">
+
+        <!-- Logo -->
+        <a href="#hero" class="nav__logo" aria-label="Automist Labs — back to top">
+          <div class="nav__logo-icon" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 2L14 6H16V9L18 11L16 13V16H14L10 18L6 16H4V13L2 11L4 9V6H6L10 2Z" fill="white" opacity=".9"/>
+              <circle cx="10" cy="11" r="2.5" fill="white"/>
+            </svg>
+          </div>
+          Automist Labs
+        </a>
+
+        <!-- Desktop links -->
+        <ul class="nav__links" role="list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Desktop CTA -->
+        <a href="#contact" class="btn btn--primary nav__cta">Let's Talk</a>
+
+        <!-- Mobile toggle -->
+        <button
+          class="nav__toggle"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open navigation menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="mobile-menu" role="dialog" aria-label="Mobile navigation">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn--primary" style="margin-top:1rem">Let's Talk →</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── Hero ──────────────────────────────────────────── -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+
+      <!-- Background -->
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+        <div class="hero__grid"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="hero__content">
+        <div class="hero__badge" aria-label="Available for new projects">
+          <span class="hero__badge-dot" aria-hidden="true"></span>
+          Available for new projects
+        </div>
+
+        <h1 id="hero-title" class="hero__title">
+          Automate. <span class="gradient-text">Integrate.</span><br />
+          Scale.
+        </h1>
+
+        <p class="hero__subtitle">
+          We design intelligent automation systems with <strong>n8n</strong> and <strong>GoHighLevel</strong>
+          that eliminate manual work, nurture leads around the clock, and help your
+          business grow on autopilot.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">
+            Start a Project
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#work" class="btn btn--outline">View Our Work</a>
+        </div>
+
+        <!-- Stats -->
+        <div class="hero__stats" aria-label="Key metrics">
+          <div class="hero__stat">
+            <span class="hero__stat-value" data-target="50+">50+</span>
+            <span class="hero__stat-label">Automations Built</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value" data-target="20+">20+</span>
+            <span class="hero__stat-label">Happy Clients</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value" data-target="10000+">10,000+</span>
+            <span class="hero__stat-label">Hours Saved</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value" data-target="99">99%</span>
+            <span class="hero__stat-label">Satisfaction Rate</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="scroll-indicator" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        scroll
+      </div>
+    </section>
+
+    <!-- ── Services ──────────────────────────────────────── -->
+    <section id="services" class="section" aria-labelledby="services-title">
+      <div class="container">
+        <div class="fade-in">
+          <span class="section-label">What We Do</span>
+          <div class="divider"></div>
+          <h2 id="services-title" class="section-title">
+            Automation &amp; Growth<br /><span>Services</span>
+          </h2>
+          <p class="section-desc">
+            End-to-end systems that connect your tools, automate your workflows,
+            and convert more leads — without hiring more staff.
+          </p>
+        </div>
+
+        <div class="services__grid" data-stagger>
+
+          <!-- n8n Automation -->
+          <article class="service-card fade-in" data-stagger-item>
+            <div class="service-card__icon" style="background:rgba(0,194,255,.1);" aria-hidden="true">⚡</div>
+            <h3 class="service-card__title">n8n Workflow Automation</h3>
+            <p class="service-card__desc">
+              Powerful, self-hosted or cloud automations that connect your entire stack — no code required.
+            </p>
+            <ul class="service-card__list" aria-label="n8n services">
+              <li>Multi-step workflow design</li>
+              <li>API & webhook integrations</li>
+              <li>Error handling & monitoring</li>
+              <li>Custom business logic</li>
+            </ul>
+          </article>
+
+          <!-- GHL -->
+          <article class="service-card fade-in" data-stagger-item>
+            <div class="service-card__icon" style="background:rgba(123,94,167,.15);" aria-hidden="true">🚀</div>
+            <h3 class="service-card__title">GoHighLevel CRM & Funnels</h3>
+            <p class="service-card__desc">
+              Complete GHL setups — CRM pipelines, landing pages, follow-up sequences, and sub-accounts.
+            </p>
+            <ul class="service-card__list" aria-label="GHL services">
+              <li>CRM pipeline configuration</li>
+              <li>High-converting funnel builds</li>
+              <li>SMS/email nurture sequences</li>
+              <li>Reporting dashboards</li>
+            </ul>
+          </article>
+
+          <!-- Integrations -->
+          <article class="service-card fade-in" data-stagger-item>
+            <div class="service-card__icon" style="background:rgba(0,255,180,.08);" aria-hidden="true">🔗</div>
+            <h3 class="service-card__title">Custom Integrations</h3>
+            <p class="service-card__desc">
+              Connect any tool — CRMs, payment gateways, scheduling apps, communication platforms, and more.
+            </p>
+            <ul class="service-card__list" aria-label="Integration services">
+              <li>Stripe, Twilio, Slack</li>
+              <li>Google Workspace</li>
+              <li>Zapier / Make migrations</li>
+              <li>Custom REST API builds</li>
+            </ul>
+          </article>
+
+          <!-- Consulting -->
+          <article class="service-card fade-in" data-stagger-item>
+            <div class="service-card__icon" style="background:rgba(255,180,0,.08);" aria-hidden="true">🎯</div>
+            <h3 class="service-card__title">Automation Audits &amp; Consulting</h3>
+            <p class="service-card__desc">
+              Identify bottlenecks in your current systems and get a clear roadmap for scalable automation.
+            </p>
+            <ul class="service-card__list" aria-label="Consulting services">
+              <li>Workflow efficiency audit</li>
+              <li>Tech stack recommendations</li>
+              <li>ROI-focused roadmap</li>
+              <li>1-on-1 strategy sessions</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Case Studies / Work ───────────────────────────── -->
+    <section id="work" class="section section--alt" aria-labelledby="work-title">
+      <div class="container">
+        <div class="fade-in">
+          <span class="section-label">Case Studies</span>
+          <div class="divider"></div>
+          <h2 id="work-title" class="section-title">
+            Real Results,<br /><span>Real Systems</span>
+          </h2>
+          <p class="section-desc">
+            A selection of projects delivering measurable impact. Names anonymised — full case studies available on request.
+          </p>
+        </div>
+
+        <div class="cases__grid" data-stagger>
+
+          <!-- Case 1 -->
+          <article class="case-card fade-in" data-stagger-item>
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder" aria-label="Lead qualification automation thumbnail">🤖</div>
+              <div class="case-card__overlay">
+                <span class="btn btn--outline" style="font-size:.8rem;padding:.5rem 1rem;">View Details</span>
+              </div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__cat">n8n · GHL</span>
+                <span class="tag">Lead Gen</span>
+              </div>
+              <h3 class="case-card__title">Automated Lead Qualification & Nurture Pipeline</h3>
+              <p class="case-card__desc">
+                Built a multi-step n8n workflow that scored inbound leads, auto-enrolled them in GHL sequences,
+                and notified the sales team via Slack — reducing manual triage by 90%.
+              </p>
+              <div class="case-card__results">
+                <div class="case-result">
+                  <span class="case-result__value">90%</span>
+                  <span class="case-result__label">Less manual work</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">3×</span>
+                  <span class="case-result__label">Faster response</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">$8k</span>
+                  <span class="case-result__label">Saved monthly</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 2 -->
+          <article class="case-card fade-in" data-stagger-item>
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder" aria-label="GHL agency sub-account build thumbnail">🏗️</div>
+              <div class="case-card__overlay">
+                <span class="btn btn--outline" style="font-size:.8rem;padding:.5rem 1rem;">View Details</span>
+              </div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__cat">GoHighLevel</span>
+                <span class="tag">Agency</span>
+              </div>
+              <h3 class="case-card__title">Full-Stack GHL Agency Sub-Account Build</h3>
+              <p class="case-card__desc">
+                Designed and deployed 12 white-labelled GHL sub-accounts for a marketing agency —
+                complete CRM, funnels, automations, and reporting dashboards in under two weeks.
+              </p>
+              <div class="case-card__results">
+                <div class="case-result">
+                  <span class="case-result__value">12</span>
+                  <span class="case-result__label">Sub-accounts</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">14d</span>
+                  <span class="case-result__label">Delivery time</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">40%</span>
+                  <span class="case-result__label">Conversion lift</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 3 -->
+          <article class="case-card fade-in" data-stagger-item>
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder" aria-label="Stripe & CRM billing sync thumbnail">💳</div>
+              <div class="case-card__overlay">
+                <span class="btn btn--outline" style="font-size:.8rem;padding:.5rem 1rem;">View Details</span>
+              </div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__cat">n8n · Stripe</span>
+                <span class="tag">FinTech</span>
+              </div>
+              <h3 class="case-card__title">Stripe ↔ CRM Billing Sync & Churn Prevention</h3>
+              <p class="case-card__desc">
+                Integrated Stripe webhooks with a CRM via n8n to flag at-risk subscriptions and
+                trigger personalised retention flows — cutting churn by 35%.
+              </p>
+              <div class="case-card__results">
+                <div class="case-result">
+                  <span class="case-result__value">35%</span>
+                  <span class="case-result__label">Churn reduced</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">100%</span>
+                  <span class="case-result__label">Data accuracy</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">Real-time</span>
+                  <span class="case-result__label">Sync</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 4 — placeholder -->
+          <article class="case-card fade-in" data-stagger-item>
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder" aria-label="Appointment booking automation thumbnail">📅</div>
+              <div class="case-card__overlay">
+                <span class="btn btn--outline" style="font-size:.8rem;padding:.5rem 1rem;">View Details</span>
+              </div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__cat">GHL · Calendly</span>
+                <span class="tag">SaaS</span>
+              </div>
+              <h3 class="case-card__title">Appointment Booking Automation &amp; No-Show Recovery</h3>
+              <p class="case-card__desc">
+                Connected a SaaS platform's booking system to GHL — auto-confirming appointments,
+                sending reminders, and re-engaging no-shows with a 3-touch sequence.
+              </p>
+              <div class="case-card__results">
+                <div class="case-result">
+                  <span class="case-result__value">60%</span>
+                  <span class="case-result__label">No-shows cut</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">2×</span>
+                  <span class="case-result__label">Rebookings</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">100%</span>
+                  <span class="case-result__label">Automated</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 5 — placeholder -->
+          <article class="case-card fade-in" data-stagger-item>
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder" aria-label="Google Sheets data pipeline thumbnail">📊</div>
+              <div class="case-card__overlay">
+                <span class="btn btn--outline" style="font-size:.8rem;padding:.5rem 1rem;">View Details</span>
+              </div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__cat">n8n · Sheets</span>
+                <span class="tag">E-Commerce</span>
+              </div>
+              <h3 class="case-card__title">Live Inventory &amp; Order Data Pipeline</h3>
+              <p class="case-card__desc">
+                Built a real-time n8n pipeline syncing Shopify orders, inventory levels, and supplier
+                data into a Google Sheets dashboard — eliminating daily manual reconciliation.
+              </p>
+              <div class="case-card__results">
+                <div class="case-result">
+                  <span class="case-result__value">5h</span>
+                  <span class="case-result__label">Saved daily</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">0</span>
+                  <span class="case-result__label">Manual errors</span>
+                </div>
+                <div class="case-result">
+                  <span class="case-result__value">Live</span>
+                  <span class="case-result__label">Data</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 6 — add yours -->
+          <article class="case-card fade-in" data-stagger-item style="border-style:dashed;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:360px;text-align:center;">
+            <div style="font-size:2.5rem;margin-bottom:1rem;" aria-hidden="true">✨</div>
+            <h3 class="case-card__title" style="margin-bottom:.5rem;">Your Next Case Study</h3>
+            <p class="case-card__desc" style="max-width:30ch;margin-inline:auto;">
+              Replace this card with your own project — just edit the HTML.
+            </p>
+            <a href="#contact" class="btn btn--outline" style="margin-top:1.5rem;">Start a Project</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Skills / Tools ────────────────────────────────── -->
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="skills__header fade-in">
+          <span class="section-label">Expertise</span>
+          <div class="divider"></div>
+          <h2 id="skills-title" class="section-title">
+            Tools &amp; <span>Technologies</span>
+          </h2>
+          <p class="section-desc">
+            A curated toolkit refined across dozens of automation projects.
+          </p>
+        </div>
+
+        <div class="skills__categories">
+
+          <!-- Core Automation -->
+          <div class="fade-in">
+            <p class="skills__cat-title">Core Automation</p>
+            <ul class="skills__tags" role="list" aria-label="Core automation tools">
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">⚡</span>n8n</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">🚀</span>GoHighLevel (GHL)</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">🔗</span>Webhooks</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">🌐</span>REST APIs</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">🔄</span>Make (Integromat)</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">⚙️</span>Zapier</span></li>
+            </ul>
+          </div>
+
+          <!-- CRM & Marketing -->
+          <div class="fade-in">
+            <p class="skills__cat-title">CRM &amp; Marketing</p>
+            <ul class="skills__tags" role="list" aria-label="CRM and marketing tools">
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">📊</span>GHL CRM</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">📧</span>Email Sequences</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">📱</span>SMS Campaigns</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">🎯</span>Sales Funnels</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">💬</span>Twilio</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">📣</span>ActiveCampaign</span></li>
+            </ul>
+          </div>
+
+          <!-- Integrations & Data -->
+          <div class="fade-in">
+            <p class="skills__cat-title">Integrations &amp; Data</p>
+            <ul class="skills__tags" role="list" aria-label="Integration and data tools">
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">💰</span>Stripe</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">📋</span>Google Sheets</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">💬</span>Slack</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">📅</span>Calendly</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">🛒</span>Shopify</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">☁️</span>Airtable</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">📦</span>Notion</span></li>
+            </ul>
+          </div>
+
+          <!-- Dev & Infrastructure -->
+          <div class="fade-in">
+            <p class="skills__cat-title">Dev &amp; Infrastructure</p>
+            <ul class="skills__tags" role="list" aria-label="Development and infrastructure tools">
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">🐳</span>Docker</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">☁️</span>VPS / Cloud</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">🔒</span>OAuth &amp; JWT</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">📜</span>JavaScript</span></li>
+              <li><span class="skill-tag"><span class="skill-tag__icon" aria-hidden="true">🐍</span>Python</span></li>
+            </ul>
+          </div>
+
+          <!-- Currently Learning -->
+          <div class="fade-in">
+            <p class="skills__cat-title">Currently Learning ✨</p>
+            <ul class="skills__tags" role="list" aria-label="Skills currently learning">
+              <li><span class="skill-tag learning"><span class="skill-tag__icon" aria-hidden="true">🎬</span>Video Editing</span></li>
+              <li><span class="skill-tag learning"><span class="skill-tag__icon" aria-hidden="true">🎞️</span>DaVinci Resolve</span></li>
+              <li><span class="skill-tag learning"><span class="skill-tag__icon" aria-hidden="true">✂️</span>Adobe Premiere</span></li>
+              <li><span class="skill-tag learning"><span class="skill-tag__icon" aria-hidden="true">🎨</span>Motion Graphics</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── About ──────────────────────────────────────────── -->
+    <section id="about" class="section section--alt" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about__grid">
+
+          <!-- Visual -->
+          <div class="about__visual fade-in" aria-hidden="true">
+            <div class="about__logo-mark">
+              <span class="about__logo-text">AL</span>
+            </div>
+            <div class="about__logo-sub">Est. 2023 · Automist Labs</div>
+          </div>
+
+          <!-- Text -->
+          <div class="about__text fade-in">
+            <span class="section-label">About Us</span>
+            <div class="divider"></div>
+            <h2 id="about-title" class="section-title">
+              Who Is <span>Automist Labs?</span>
+            </h2>
+
+            <p>
+              <span class="about__highlight">Automist Labs</span> is a boutique automation studio built for
+              entrepreneurs, agencies, and growing businesses that are tired of doing everything manually.
+              We sit at the intersection of <strong>technology</strong> and <strong>growth strategy</strong>.
+            </p>
+
+            <p>
+              Our founder is a certified <span class="about__highlight">n8n expert</span> and
+              <span class="about__highlight">GoHighLevel specialist</span> who has designed and shipped
+              automations for clients across e-commerce, SaaS, real estate, and marketing agencies.
+              Every system we build is reliable, well-documented, and built to scale.
+            </p>
+
+            <p>
+              We believe automation should feel <em>effortless</em> — not overwhelming. Whether you need
+              a quick integration or a full systems overhaul, we tailor every engagement to your
+              specific workflow and goals.
+            </p>
+
+            <!-- Values -->
+            <div class="about__values" role="list" aria-label="Core values">
+              <div class="about__value" role="listitem">
+                <span class="about__value-icon" aria-hidden="true">🎯</span>
+                <span class="about__value-text">Results over complexity — simple systems that actually work</span>
+              </div>
+              <div class="about__value" role="listitem">
+                <span class="about__value-icon" aria-hidden="true">🔒</span>
+                <span class="about__value-text">Security-first — your data stays yours</span>
+              </div>
+              <div class="about__value" role="listitem">
+                <span class="about__value-icon" aria-hidden="true">📖</span>
+                <span class="about__value-text">Full documentation — you own and understand everything we build</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Contact ────────────────────────────────────────── -->
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div class="contact__bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="contact__inner fade-in">
+          <span class="section-label">Get In Touch</span>
+          <h2 id="contact-title" class="contact__title">
+            Ready to Automate<br /><span class="gradient-text">Your Growth?</span>
+          </h2>
+          <p class="contact__sub">
+            Tell us about your project. We'll get back to you within 24 hours
+            with a clear plan and honest quote.
+          </p>
+
+          <div class="contact__actions">
+            <a
+              href="mailto:hello@automistlabs.com"
+              class="btn btn--primary"
+              aria-label="Send us an email"
+            >
+              ✉️ &nbsp;hello@automistlabs.com
+            </a>
+            <!-- Replace href below with your Calendly / Cal.com link, e.g. href="https://calendly.com/yourname" -->
+            <a
+              href="#contact"
+              class="btn btn--outline"
+              aria-label="Book a discovery call (calendar link coming soon)"
+              aria-disabled="true"
+            >
+              📅 &nbsp;Book a Discovery Call
+            </a>
+          </div>
+
+          <hr class="contact__divider" />
+
+          <!-- Social / Channels -->
+          <div class="contact__channels" role="list" aria-label="Contact channels">
+            <!-- Replace href values below with your actual profile URLs -->
+            <a href="#" class="contact__channel" role="listitem" aria-label="Twitter / X profile (link coming soon)" aria-disabled="true">
+              <span class="contact__channel-icon" aria-hidden="true">🐦</span>
+              Twitter / X
+            </a>
+            <a href="#" class="contact__channel" role="listitem" aria-label="LinkedIn profile (link coming soon)" aria-disabled="true">
+              <span class="contact__channel-icon" aria-hidden="true">💼</span>
+              LinkedIn
+            </a>
+            <a href="#" class="contact__channel" role="listitem" aria-label="Upwork profile (link coming soon)" aria-disabled="true">
+              <span class="contact__channel-icon" aria-hidden="true">💻</span>
+              Upwork
+            </a>
+            <a href="#" class="contact__channel" role="listitem" aria-label="YouTube channel (link coming soon)" aria-disabled="true">
+              <span class="contact__channel-icon" aria-hidden="true">▶️</span>
+              YouTube
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ──────────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+
+        <!-- Brand -->
+        <div class="footer__brand">
+          <a href="#hero" class="nav__logo" aria-label="Automist Labs home">
+            <div class="nav__logo-icon" aria-hidden="true">
+              <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 2L14 6H16V9L18 11L16 13V16H14L10 18L6 16H4V13L2 11L4 9V6H6L10 2Z" fill="white" opacity=".9"/>
+                <circle cx="10" cy="11" r="2.5" fill="white"/>
+              </svg>
+            </div>
+            Automist Labs
+          </a>
+          <p>Automation systems that grow your business while you sleep.</p>
+        </div>
+
+        <!-- Links -->
+        <nav aria-label="Footer services">
+          <p class="footer__nav-title">Services</p>
+          <ul class="footer__nav-list" role="list">
+            <li><a href="#services">n8n Automation</a></li>
+            <li><a href="#services">GHL CRM &amp; Funnels</a></li>
+            <li><a href="#services">Custom Integrations</a></li>
+            <li><a href="#services">Automation Audits</a></li>
+          </ul>
+        </nav>
+
+        <!-- More -->
+        <nav aria-label="Footer navigation">
+          <p class="footer__nav-title">Company</p>
+          <ul class="footer__nav-list" role="list">
+            <li><a href="#work">Case Studies</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          &copy; <span data-year></span> Automist Labs. All rights reserved.
+        </p>
+        <div class="footer__social" aria-label="Social media links">
+          <!-- Replace href="#" values below with your actual social profile URLs -->
+          <a href="#" class="footer__social-link" aria-label="Twitter / X (link coming soon)" aria-disabled="true">𝕏</a>
+          <a href="#" class="footer__social-link" aria-label="LinkedIn (link coming soon)" aria-disabled="true">in</a>
+          <a href="#" class="footer__social-link" aria-label="GitHub (link coming soon)" aria-disabled="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js" defer></script>
+
+</body>
+</html>
