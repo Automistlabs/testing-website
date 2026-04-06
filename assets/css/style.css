@@ -1162,6 +1162,13 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   margin-bottom: var(--sp-4);
 }
 
+/* aria-disabled placeholder links */
+a[aria-disabled="true"] {
+  opacity: .55;
+  cursor: default;
+  pointer-events: none;
+}
+
 /* ── Reduced-motion ───────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
